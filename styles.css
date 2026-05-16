@@ -824,57 +824,6 @@ section {
   }
 }
 
-/* Features */
-.features {
-  display: grid;
-  gap: 12px;
-}
-@media (min-width: 640px) {
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 960px) {
-  .features {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 18px;
-  border-radius: var(--radius-md);
-  background: var(--bg-elevated);
-  border: 1px solid var(--border);
-}
-
-.feature-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 9px;
-  display: grid;
-  place-items: center;
-  margin-bottom: 10px;
-  background: rgba(94, 234, 212, 0.08);
-  border: 1px solid rgba(94, 234, 212, 0.22);
-  color: var(--accent-2);
-}
-
-.feature h3 {
-  margin: 0 0 4px;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-.feature p {
-  margin: 0;
-  font-size: 13px;
-  color: var(--text-muted);
-  line-height: 1.35;
-}
-
 /* ROI — деньги и часы */
 .roi-intro.section-head {
   max-width: 720px;
